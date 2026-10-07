@@ -1,0 +1,66 @@
+{
+  "schema": "bemarkdown-retention-release-weights-v1",
+  "release_tag": "v1.0.0-b200",
+  "repo": "BooksBoss17/BeMarkdown-Retention-B200",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "path": "B200-Q4_K_M.gguf",
+      "bytes": 2783446432,
+      "sha256": "04a3a93d42ccb74fca20225c8568912039d458ff40d99bdbaece35d996c807de",
+      "parts": [
+        {
+          "name": "B200-Q4_K_M.gguf.part01",
+          "bytes": 1610612736,
+          "sha256": "68e67a17264d195fb131365ba525d05058a43fd251ae53ee6232a7c2aaa78d73",
+          "url": "https://github.com/BooksBoss17/BeMarkdown-Retention-B200/releases/download/v1.0.0-b200/B200-Q4_K_M.gguf.part01"
+        },
+        {
+          "name": "B200-Q4_K_M.gguf.part02",
+          "bytes": 1172833696,
+          "sha256": "81c73e193512f7f9dc68e840303f4d5e63903118c0eb67841e082ce743b18afa",
+          "url": "https://github.com/BooksBoss17/BeMarkdown-Retention-B200/releases/download/v1.0.0-b200/B200-Q4_K_M.gguf.part02"
+        }
+      ]
+    },
+    {
+      "path": "mmproj-F16.gguf",
+      "bytes": 672423040,
+      "sha256": "f09979e4cc9b96df37110605c49becd7ab353cd3f1b0e6fafc9937dc5b708d0e",
+      "parts": [
+        {
+          "name": "mmproj-F16.gguf",
+          "bytes": 672423040,
+          "sha256": "f09979e4cc9b96df37110605c49becd7ab353cd3f1b0e6fafc9937dc5b708d0e",
+          "url": "https://github.com/BooksBoss17/BeMarkdown-Retention-B200/releases/download/v1.0.0-b200/mmproj-F16.gguf"
+        }
+      ]
+    },
+    {
+      "path": "adapter/adapter_model.safetensors",
+      "bytes": 121957008,
+      "sha256": "5ba6f8a44f4dd50e37429a46e4f108b92afd9105cc90dd7deebc325ea74296ba",
+      "parts": [
+        {
+          "name": "adapter_model.safetensors",
+          "bytes": 121957008,
+          "sha256": "5ba6f8a44f4dd50e37429a46e4f108b92afd9105cc90dd7deebc325ea74296ba",
+          "url": "https://github.com/BooksBoss17/BeMarkdown-Retention-B200/releases/download/v1.0.0-b200/adapter_model.safetensors"
+        }
+      ]
+    },
+    {
+      "path": "adapter/adapter_config.json",
+      "bytes": 1185,
+      "sha256": "91244a510a728beb4690ffdcc44723e4bcbc6b53f40d3aad6bf7438e375c5f5d",
+      "parts": [
+        {
+          "name": "adapter_config.json",
+          "bytes": 1185,
+          "sha256": "91244a510a728beb4690ffdcc44723e4bcbc6b53f40d3aad6bf7438e375c5f5d",
+          "url": "https://github.com/BooksBoss17/BeMarkdown-Retention-B200/releases/download/v1.0.0-b200/adapter_config.json"
+        }
+      ]
+    }
+  ]
+}

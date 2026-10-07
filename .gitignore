@@ -1,0 +1,6 @@
+weights/
+*.gguf
+*.safetensors
+.download-parts/
+__pycache__/
+*.pending
