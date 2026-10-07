@@ -51,13 +51,13 @@
     },
     {
       "path": "adapter/adapter_config.json",
-      "bytes": 1185,
-      "sha256": "91244a510a728beb4690ffdcc44723e4bcbc6b53f40d3aad6bf7438e375c5f5d",
+      "bytes": 1136,
+      "sha256": "2c27e3c2a1b5db9c126076c2f14ca450be67dde25ad803e5c4e54cb56642169b",
       "parts": [
         {
           "name": "adapter_config.json",
-          "bytes": 1185,
-          "sha256": "91244a510a728beb4690ffdcc44723e4bcbc6b53f40d3aad6bf7438e375c5f5d",
+          "bytes": 1136,
+          "sha256": "2c27e3c2a1b5db9c126076c2f14ca450be67dde25ad803e5c4e54cb56642169b",
           "url": "https://github.com/BooksBoss17/BeMarkdown-Retention-B200/releases/download/v1.0.0-b200/adapter_config.json"
         }
       ]
