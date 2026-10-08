@@ -29,3 +29,7 @@ python scripts/download_weights.py --output weights --verify-only
 ```
 
 需要配对使用 `weights/B200-Q4_K_M.gguf` 和 `weights/mmproj-F16.gguf`。可训练适配器位于 `weights/adapter/`，基座应单独从官方 pinned revision 加载。程序不自动接入BeMarkdown、不自动删图。
+
+## 2026-10-08：语义复核组合线路
+
+B200 权重未变，继续使用 v1.0.0-b200 的原始分片与 SHA256。独立 MCP 组合线路加入 Qwen3.5-9B 语义复核，发布在 [MCP 开源仓库](https://github.com/BooksBoss17/Education_Knowledge_Base_MCP_OpenSource/blob/main/docs/SEMANTIC_RETENTION.md)。组合评测 8767 项、当前 semantic-v2 准确率98.5172%、留存精确率97.1188%、误删0；该成绩属于完整组合流程，不属于 B200 单模型。原gold相同预测仍误删28；标签口径修订不是模型改进。processor 的固定版本/下载哈希见 PROCESSOR_MANIFEST.json，由 MCP 安装脚本获取。

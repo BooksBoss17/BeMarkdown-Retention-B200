@@ -10,10 +10,20 @@
     "derived_repo": "BooksBoss17/BeMarkdown-Retention-B200"
   },
   "fingerprint_contract": "sha256-canonical-json-model-artifacts-v1",
-  "model_fingerprint": "360889dbfee22eaf42c3c279d625f5bf07c9cc30baf04541cc5ee04542c90110",
+  "model_fingerprint": "d6c467485368aa530826262f2680a8828d8fbb07379ff402ea1d912d5712c0b2",
   "file_count": 4,
   "total_bytes": 3577827616,
   "files": [
+    {
+      "path": "weights/adapter/adapter_config.json",
+      "bytes": 1136,
+      "sha256": "2c27e3c2a1b5db9c126076c2f14ca450be67dde25ad803e5c4e54cb56642169b"
+    },
+    {
+      "path": "weights/adapter/adapter_model.safetensors",
+      "bytes": 121957008,
+      "sha256": "5ba6f8a44f4dd50e37429a46e4f108b92afd9105cc90dd7deebc325ea74296ba"
+    },
     {
       "path": "weights/B200-Q4_K_M.gguf",
       "bytes": 2783446432,
@@ -23,16 +33,6 @@
       "path": "weights/mmproj-F16.gguf",
       "bytes": 672423040,
       "sha256": "f09979e4cc9b96df37110605c49becd7ab353cd3f1b0e6fafc9937dc5b708d0e"
-    },
-    {
-      "path": "weights/adapter/adapter_model.safetensors",
-      "bytes": 121957008,
-      "sha256": "5ba6f8a44f4dd50e37429a46e4f108b92afd9105cc90dd7deebc325ea74296ba"
-    },
-    {
-      "path": "weights/adapter/adapter_config.json",
-      "bytes": 1136,
-      "sha256": "2c27e3c2a1b5db9c126076c2f14ca450be67dde25ad803e5c4e54cb56642169b"
     }
   ],
   "license": {
